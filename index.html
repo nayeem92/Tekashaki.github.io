@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Nayeem's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#projects" class="icon solid fa-folder"><span>Projects</span></a>
+						<a href="#research" class="icon solid fa-newspaper"><span>Research</span></a>
+						<a href="https://www.linkedin.com/in/abdun-nayeem-khan/" class="icon brands fa-linkedin"><span>Linkedin</span></a>
+					</nav>
+
+				<!-- Main -->
+                    <div id="main">
+
+                        <!-- Me -->
+                        <article id="home" class="panel intro">
+                            <header>
+                                <h1>Abdun Nayeem Khan</h1>
+                                <p>Data Analytics ∣ Football ∣ Real Estate Enthusiast ∣ Data Visualization</p>
+                            </header>
+                            <a href="#projects" class="jumplink pic">
+                                <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+                                <img src="images/dp.jpg" alt="" />
+                            </a>
+                        </article>
+
+                        <!-- Work -->
+                        <article id="projects" class="panel">
+                            <header>
+                                <h2>Projects</h2>
+                            </header>
+                            <p>
+                                As a recent computer science graduate, I have always had a passion for using data to solve complex problems. During my undergraduate studies, I developed a strong foundation in data analysis through my thesis on Natural Language Inference datasets.
+
+                                Since then, I have continued to build on my expertise in data analytics, including applying it to the sports industry. I have a particular interest in using data to gain insights into athletic performance, and I am always exploring new ways to analyze and visualize sports data.
+
+                                In my free time, I am also a real estate enthusiast, and I have a keen eye for identifying market trends and using data to inform investment decisions. Additionally, I am a big fan of fantasy sports leagues, and I enjoy using statistical analysis to create winning strategies for my teams.
+
+                                Ultimately, my combination of technical skills and interests has led me to a career that combines my love for data, sports, and real estate. I am excited to continue exploring new opportunities in these fields, and I am eager to connect with others who share my passion for using data to drive meaningful insights.
+                            </p>
+                            <section>
+                                <style>
+                                    .row {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+
+                                    .col-4 {
+                                        flex-basis: calc(33.33% - 20px);
+                                        margin: 10px;
+                                        
+                                    }
+
+                                    .col-6-medium {
+                                        flex-basis: calc(50% - 20px);
+                                        margin: 10px;
+                                        
+                                    }
+
+                                    .col-12-small {
+                                        flex-basis: 100%;
+                                        margin: 10px;
+                                        
+                                    }
+
+                                    .portfolio-item {
+                                        background-color: #f5f5f5; /* set your preferred color here */
+                                        border: 1px solid #ddd;
+                                        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+                                        padding: 20px;
+                                        margin: 10px;
+                                    }
+
+                                    .image {
+                                        position: relative;
+                                        display: block;
+                                    }
+
+                                        .image img {
+                                            width: 100%;
+                                            height: auto;
+                                            border-radius: 5px;
+                                        }
+
+                                        .image:after {
+                                            content: "";
+                                            display: block;
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            width: 100%;
+                                            height: 100%;
+                                            opacity: 0;
+                                            transition: opacity 0.2s ease-in-out;
+                                            background-color: rgba(0, 0, 0, 0.5);
+                                            border-radius: 5px;
+                                        }
+
+                                        .image:hover:after {
+                                            opacity: 1;
+                                        }
+
+                                        .image:before {
+                                            content: "";
+                                            display: block;
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            font-size: 1.2em;
+                                            color: #fff;
+                                        }
+
+                                        .image.fit {
+                                            padding: 0;
+                                        }
+                                </style>                  
+                                    <div class="row">
+                                        <div class="col-4 col-6-medium col-12-small">
+                                            <div class="portfolio-item">
+                                                <a href="https://public.tableau.com/app/profile/abdun.nayeem.khan/viz/Topforwardhunting-EPL202223season/Dashboard1" class="image fit"><img src="images/tableau.png" alt="">Top forward Huntig in EPL - Tabeleau</a>
+                                                <p>Check out this Tableau dashboard to find out who's the current best forward in this EPL season. See his stats and compare him with others.</p>
+                                            </div>
+                                            </div>
+                                        <div class="col-4 col-6-medium col-12-small">
+                                            <div class="portfolio-item">
+                                                <a href="https://www.kaggle.com/code/abdunnayeemkhan/k-means-to-find-kevin-debruyne-like-players" class="image fit"><img src="images/kdb.png" alt="">PlayerFinder: Using Machine Learning (Clustering) to Identify Similar Players to Kevin De Bruyne in English Premier League</a>
+                                                <p>This Kaggle notebook demonstrates how to use K-means clustering to find similar players to Kevin De Bruyne in the English Premier League. Is he really that good? What does machine learning tell us?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-6-medium col-12-small">
+                                            <div class="portfolio-item">
+                                                <a href="https://github.com/nayeem92/Black-list-app" class="image fit"><img src="images/black.png" alt="">Black List App - Fultter/Firebase</a>
+                                                <p>This Flutter/Firebase app that allows you to create a blacklist of player IDs which is shared gloablly on the server. Avoid them in your next game!</p>
+                                            </div>
+                                         </div>
+                                        <div class="col-4 col-6-medium col-12-small">
+                                            <div class="portfolio-item">
+                                                <a href="https://github.com/nayeem92/QuizApp" class="image fit"><img src="images/demdo.png" alt="">Quiz Application - Flutter</a>
+                                                <p>This Flutter app lets you play a fun quiz on Football</p>
+                                            </div>
+                                            </div>
+                                        <div class="col-4 col-6-medium col-12-small">
+                                            <div class="portfolio-item">
+                                                <a href="https://github.com/nayeem92/OTP-verification-login-forgot-password" class="image fit"><img src="images/demo.png" alt="">OTP verification/login/forgot password - PHP</a>
+                                                <p>This PHP script demonstrates how to implement OTP verification and login/forgot password functionality using Authentication.</p>
+                                            </div>
+                                            </div>
+                                        <div class="col-4 col-6-medium col-12-small">
+                                            <div class="portfolio-item">
+                                                <a href="https://github.com/nayeem92/Top-forward-hunting-EPL" class="image fit"><img src="images/sql.png" alt="">SQL Queries for top forward hunting EPL</a>
+                                                <p>Check out these SQL queries that help you find the top forward players in the English Premier League.</p>
+                                            </div>
+                                            </div>
+                                        </div>
+                            </section>
+                        </article>
+
+
+
+                        <!-- Research -->
+                        <article id="research" class="panel">
+                            <header>
+                                <h2>Research</h2>
+                            </header>
+                            <p>
+                                Developing a dataset that will be utilized for training various transformer models to perform the Natural Language Inference Task in Bengali.
+                                The dataset generation process involves human in the loop (HITL) and human verification  to ensure quality and accuracy. More update coming soon on this portal.
+
+                            </p>
+                            <section>
+                                <div class="row">
+                                    <div class="col-4 col-6-medium col-12-small">
+                                        <div class="portfolio-item">
+                                            <a href="https://colab.research.google.com/drive/1_kHXofglBAnzqV2MCPbTUE8xBL7TylBi?usp=sharing" class="image fit"><img src="images/bert.png" alt="">Testing SNLI dataset on BERT for the NLI task</a>
+                                        </div>
+                                        </div>
+
+
+                                    </div>
+                            </section>
+                        </article>
+
+
+
+
+
+
+                    </div>
+
+				<!-- Footer -->
+					<div id="footer">
+                        <ul class="copyright">
+                            <li><a href="https://github.com/nayeem92"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.kaggle.com/abdunnayeemkhan"><i class="fab fa-kaggle"></i></a></li>
+                            <li><a href="mailto:nayeem0073297@gmail.com"><i class="far fa-envelope"></i></a></li>
+
+                        </ul>
+					</div>
+
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
